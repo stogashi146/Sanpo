@@ -15,7 +15,7 @@ const Index = (): JSX.Element => {
   const navigation = useNavigation()
   useEffect(() => {
     navigation.setOptions({
-      title: 'みんなの投稿',
+      headerTitle: 'みんなの投稿',
       headerRight: () => {
         return <LogOutButton />
       },
@@ -25,8 +25,8 @@ const Index = (): JSX.Element => {
     <View style={styles.container}>
       <View>
         <MemoListItem />
-        <MemoListItem />
-        <MemoListItem />
+        {/* <MemoListItem />
+        <MemoListItem /> */}
       </View>
       <CircleButton onPress={handlePress}>
         <Icon name="plus" size={40} color="#ffffff" />

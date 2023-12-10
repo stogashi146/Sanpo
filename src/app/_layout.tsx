@@ -5,9 +5,9 @@ const Layout = (): JSX.Element => {
     <Stack
       screenOptions={{
         headerStyle: {
-          backgroundColor: '#467FD3',
+          backgroundColor: '#FAFAFA',
         },
-        headerTintColor: '#ffffff',
+        headerTintColor: '#424242',
         headerTitle: 'Memo App',
         headerBackTitle: 'Back',
         headerTitleStyle: {
