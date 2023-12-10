@@ -1,11 +1,7 @@
-import { Text, View } from 'react-native'
+import { Redirect } from 'expo-router'
 
 const Index = (): JSX.Element => {
-  return (
-    <View>
-      <Text>Hello World</Text>
-    </View>
-  )
+  return <Redirect href="auth/log_in" />
 }
 
 export default Index
