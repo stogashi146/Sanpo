@@ -6,7 +6,7 @@
 EsLint、Prettierの同銃
 https://deku.posstree.com/react-native/eslint-prettier-husky-lint-staged/
 
-### ライブラリ
+## ライブラリ
 
 expo
 eslint
@@ -32,3 +32,7 @@ https://zenn.dev/overflow_offers/articles/20220523-component-design-best-practic
 ## インプット元教材
 
 [React Native, Firebase, Expo でアプリ開発をゼロから始めよう！](https://www.udemy.com/course/react-native-ios-android/)
+
+## デザイン
+
+[Figmaで作成した大まかなモック](<https://www.figma.com/file/dIXdiVc2ddCESOnJAgEbog/MemoApp-(%E3%82%B3%E3%83%94%E3%83%BC)?type=design&node-id=437%3A2630&mode=design&t=egBmsk731qr2FHvG-1>)
