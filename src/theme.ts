@@ -1,4 +1,4 @@
-export const thene = {
+export const theme = {
   palette: {
     primary: {
       main: '#87CEEB',
@@ -8,6 +8,10 @@ export const thene = {
     },
     gray: {
       main: '#757575',
+    },
+    background: {
+      main: '#FAFAFA',
+      white: '#FFF',
     },
     text: {
       main: '#424242',

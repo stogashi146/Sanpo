@@ -1,13 +1,14 @@
 import { Stack } from 'expo-router'
+import { theme } from '../theme'
 
 const Layout = (): JSX.Element => {
   return (
     <Stack
       screenOptions={{
         headerStyle: {
-          backgroundColor: '#FAFAFA',
+          backgroundColor: theme.palette.background.main,
         },
-        headerTintColor: '#424242',
+        headerTintColor: theme.palette.text.main,
         headerTitle: 'Memo App',
         headerBackTitle: 'Back',
         headerTitleStyle: {

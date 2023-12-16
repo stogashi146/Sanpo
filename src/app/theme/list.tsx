@@ -6,6 +6,8 @@ import MemoListItem from '../../components/MemoListItem'
 import CircleButton from '../../components/CircleButton'
 import Icon from '../../components/Icon'
 import LogOutButton from '../../components/LogOutButton'
+import Card from '../../components/Parts/Card'
+import { ScrollView } from 'react-native-gesture-handler'
 
 const handlePress = (): void => {
   router.push('/memo/create')
@@ -22,16 +24,17 @@ const Index = (): JSX.Element => {
     })
   }, [])
   return (
-    <View style={styles.container}>
+    <ScrollView style={styles.container}>
       <View>
-        <MemoListItem />
-        {/* <MemoListItem />
-        <MemoListItem /> */}
+        {/* <MemoListItem /> */}
+        <Card />
+        <Card />
       </View>
+      {/* 追加ボタン */}
       <CircleButton onPress={handlePress}>
         <Icon name="plus" size={40} color="#ffffff" />
       </CircleButton>
-    </View>
+    </ScrollView>
   )
 }
 
