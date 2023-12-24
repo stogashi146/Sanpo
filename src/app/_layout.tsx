@@ -9,7 +9,7 @@ const Layout = (): JSX.Element => {
           backgroundColor: theme.palette.background.main,
         },
         headerTintColor: theme.palette.text.main,
-        headerTitle: 'Memo App',
+        headerTitle: 'Sanpo',
         headerBackTitle: 'Back',
         headerTitleStyle: {
           fontSize: 22,

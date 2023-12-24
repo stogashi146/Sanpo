@@ -20,12 +20,12 @@ react-native-gesture-handler
 
 ## コンポーネント設計
 
-| API 通信  | グローバル  | State | Style | 依存関係         |
-| :-------- | :---------- | :---- | :---- | :--------------- |
-| Parts     | ×           | ×     | ○     | parts            |
-| Templates | △           | ○     | ○     | parts, templates |
-| Views     | ○（client） | ○     | △     | parts, templates |
-| Pages     | ○（ssr）    | ×     | ×     | views            |
+| ディレクトリ名 | API 通信    | State | Style | 依存関係         | 説明                 |
+| :------------- | :---------- | :---- | :---- | :--------------- | :------------------- |
+| Parts          | ×           | ×     | ○     | parts            |                      |
+| Templates      | △           | ○     | ○     | parts, templates |                      |
+| Views          | ○（client） | ○     | △     | parts, templates |                      |
+| app            | ×           | ×     | ×     | views            | ルーティングのみ行う |
 
 https://zenn.dev/overflow_offers/articles/20220523-component-design-best-practice
 

@@ -8,7 +8,7 @@ import {
 import { Link, router } from 'expo-router'
 import { useState } from 'react'
 
-import Button from '../../components/Button'
+import Button from '../../components/Parts/Button'
 
 const handlePress = (): void => {
   // 会員登録

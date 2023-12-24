@@ -14,9 +14,16 @@ export const theme = {
       white: '#FFF',
     },
     text: {
-      main: '#424242',
+      main: '#333333',
       light: '#212121',
+      white: '#FFF',
       disable: '#9E9E9E',
     },
+  },
+  fontSize: {
+    sm: 14,
+    md: 16,
+    l: 18,
+    xl: 20,
   },
 }
